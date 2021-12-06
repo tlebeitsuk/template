@@ -1,0 +1,32 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "plugin:vue/vue3-recommended",
+        "eslint:recommended",
+        "prettier"
+    ],
+    "plugins": [
+        "vue"
+    ],
+    "globals": {
+        "defineProps": "readonly",
+        "defineEmits": "readonly",
+        "defineExpose": "readonly",
+        "withDefaults": "readonly"
+    },
+    "overrides": [
+        {
+            "files": [
+                "*.spec.js"
+            ],
+            "rules": {
+                "no-undef": "off"
+            }
+        }
+    ]
+}

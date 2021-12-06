@@ -1,0 +1,6 @@
+button:
+  go: GO
+intro:
+  desc: Vite+Vue+Router+Store+i18n+UnoCSS starter template 
+  whats-your-name: What's your name?
+not-found: Not found
